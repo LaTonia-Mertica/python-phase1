@@ -29,5 +29,5 @@ while True:
             if(alarm_minute==current_minute):
                 if(alarm_seconds==current_seconds):
                     print('Get Up! Get Up! Get Up!')
-                    playsound('sounds/alarmclock.mp3')
+                    playsound('sounds/beep.mp3')
                     break
